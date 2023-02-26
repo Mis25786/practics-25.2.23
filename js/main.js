@@ -52,7 +52,7 @@ function createCard(arr) {
   const marcup = arr
     .map(({ id, title, poster_path }) => {
       return `<li class="item" data-id="${id}">
-        <img class="test" src="https://image.tmdb.org/t/p/w500${poster_path}" alt="${title}">
+        <img class="picture" src="https://image.tmdb.org/t/p/w500${poster_path}" alt="${title}">
         <p class="test">${title}</p>
     </li>`;
     })
