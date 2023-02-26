@@ -23,6 +23,8 @@ ul {
   list-style: none;
 }
 
+/* ============================= */
+
 iframe {
   width: 1000px;
   height: 700px;
@@ -45,9 +47,4 @@ iframe {
 .picture {
   cursor: pointer;
   height: 100%;
-}
-
-.test {
-  margin: 0;
-  padding: 0;
 }
